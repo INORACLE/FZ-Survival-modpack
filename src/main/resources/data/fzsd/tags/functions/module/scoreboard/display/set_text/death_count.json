@@ -1,0 +1,13 @@
+{
+    "__comments": [
+        "调用者：#fzsd:module/scoreboard/display/set_text",
+        "用于在加载时储存计分板颜色，不同计分板不得使用同一颜色！",
+        "建议不要直接修改本文件，可编写扩展数据包并覆写本标签！"
+    ],
+    "__comment_replace": "编写扩展数据包时必须为true",
+    "replace": false,
+    "__comment_values": "此处只能填写一个函数！",
+    "values": [
+        "fzsd:module/scoreboard/display/set_text/death_count/dark_red"
+    ]
+}

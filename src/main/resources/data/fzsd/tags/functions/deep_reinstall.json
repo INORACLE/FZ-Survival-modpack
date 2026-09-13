@@ -1,0 +1,9 @@
+{
+    "__comment": "本标签将强制重装所有模块",
+    "replace": false,
+    "values": [
+        "#fzsd:deep_uninstall",
+        "#fzsd:deep_install",
+        "#fzsd:load"
+    ]
+}

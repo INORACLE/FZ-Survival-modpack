@@ -1,0 +1,10 @@
+{
+    "__comment": "本标签将强制安装所有模块",
+    "replace": false,
+    "values": [
+        "#fzsd:system/install/pre",
+        "#fzsd:system/install/system",
+        "#fzsd:system/install/module/force",
+        "#fzsd:system/install/post"
+    ]
+}

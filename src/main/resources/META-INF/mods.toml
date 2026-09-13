@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-3.0"
+
+[[mods]]
+modId="fzsd"
+version="${file.jarVersion}"
+displayName="FZ Survival Mod"
+description='''FZ Survival 生存数据包 v3.1.14 的 Forge 1.20.1 模组版本。
+
+自动注册并加载原数据包全部内容：生存统计总览、交互器、扫地机、幻翼预警、死亡位置与出生点等信息。
+本版本定制：普通玩家无法使用交互器（仅管理员可触发交互与设置清扫间隔），已移除计分榜总榜「总览」。'''
+
+[[dependencies.fzsd]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.fzsd]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

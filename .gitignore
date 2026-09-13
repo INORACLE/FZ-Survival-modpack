@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Forge run directory
+run/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# Logs
+*.log
+hs_err_pid*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Source datapack zip (already fully migrated into src/; kept only as reference)
+*.zip
+
+# One-off migration helper scripts (not part of the mod source)
+scripts/

@@ -1,0 +1,10 @@
+{
+    "__comment": "本标签将尝试加载安装记录为true的模块",
+    "replace": false,
+    "values": [
+        "#fzsd:system/load/pre",
+        "#fzsd:system/load/system",
+        "#fzsd:system/load/module/try",
+        "#fzsd:system/load/post"
+    ]
+}

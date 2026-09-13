@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "__comment": "将在卸载后恢复安装记录",
+    "values": [
+        "fzsd:system/uninstall/post"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "__comment": "不同于模块的卸载操作，本标签不会将模块的安装记录设为false",
+    "replace": false,
+    "values": [
+        "#fzsd:system/uninstall/pre",
+        "fzsd:system/uninstall/cache_module_install_data",
+        "#fzsd:system/uninstall/module",
+        "#fzsd:system/uninstall/system",
+        "fzsd:system/uninstall/restore_module_install_data",
+        "#fzsd:system/uninstall/post"
+    ]
+}

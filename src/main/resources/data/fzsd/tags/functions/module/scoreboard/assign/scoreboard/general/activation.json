@@ -1,0 +1,8 @@
+{
+    "__comment_replace": "编写扩展数据包时必须为true",
+    "replace": false,
+    "__comment_values": "此处只能填写一个函数！",
+    "values": [
+        "fzsd:module/scoreboard/assign/scoreboard/general/activation"
+    ]
+}

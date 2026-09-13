@@ -1,0 +1,7 @@
+{
+    "__comment": "用于兼容fzsd地毯脚本分数恢复功能",
+    "replace": false,
+    "values": [
+        "fzsd.extra.bbl:assign/general"
+    ]
+}

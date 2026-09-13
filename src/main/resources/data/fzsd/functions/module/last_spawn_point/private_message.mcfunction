@@ -1,0 +1,2 @@
+execute if data entity @s SpawnDimension run tellraw @s [{"text": "你的上个出生点位于"}, {"nbt": "fzsd.api.dimension.name", "interpret": true, "storage": "fzsd:global"}, [{"text": " [", "color": "green"}, {"nbt": "fzsd.x", "storage": "fzsd:last_spawn_point"}, {"text": ", "}, {"nbt": "fzsd.y", "storage": "fzsd:last_spawn_point"}, {"text": ", "}, {"nbt": "fzsd.z", "storage": "fzsd:last_spawn_point"}, {"text": "]"}]]
+execute unless data entity @s SpawnDimension run tellraw @s {"text": "你从未设置过出生点！"}
