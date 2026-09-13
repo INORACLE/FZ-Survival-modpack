@@ -7,7 +7,7 @@
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
 - **Mod ID**：`fzsd`
-- **版本**：3.1.14
+- **版本**：3.1.15
 - **Minecraft / Forge**：1.20.1 / Forge 47.x
 - **Java**：17
 - **License**：GPL-3.0
@@ -44,9 +44,12 @@
 2. 将下载的 `.jar` 放入 `.minecraft/mods/` 文件夹。
 3. 启动游戏，进入世界后首次加载会自动完成数据包注册 (Install)。
 
+### 从 GitHub Releases 下载
+前往右侧 **Releases** 下载最新的 `fzsd-survival-3.1.15.jar`。
+
 ### 游玩提示
-- 交互器仅 **OP2+ 管理员** 可用；给自己加 OP 后在游戏内聊天输入：
-  `/tag @s add fzsd.admin`（或直接 `op <你的名字> 2`）。
+- 交互器仅 **OP2+ 管理员** 可用；**无需打 tag** —— 模组会按玩家真实 OP 权限等级自动维护 `fzsd.admin`。
+  给自己加 OP 后无需任何额外操作（直接 `op <你的名字> 2` 即可）。
 - 想重置数据：`/function fzsd:module/scoreboard/install/clear_data`（需 OP）。
 
 ---
@@ -62,7 +65,7 @@ gradlew.bat build         # Windows
 ```
 
 产物输出到 `build/libs/`：
-- `fzsd-survival-3.1.14.jar` — 最终可安装模组。
+- `fzsd-survival-3.1.15.jar` — 最终可安装模组。
 
 > foojay resolver 自动化 JDK 17 工具链，无需硬编码 `org.gradle.java.home`，在 Windows/Linux/macOS 与 CI 上均可直接构建。
 
